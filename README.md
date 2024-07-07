@@ -6,7 +6,9 @@ The Data Analyst Roadmap is a comprehensive guide for those who aspire to become
 
 # Table of Contents
 - [Introduction](#introduction)
-  - [What is Data Analytics](#)
+  - [What is Data Analytics](#what-is-data-analytics)
+  - [Types of Data Analytics](#types-of-data-analytics)
+- [Key Concepts of Data](#key-concepts-of-data)
 - [Analysis / Reporting with Excel](#analysis--reporting-with-excel)
 
 
@@ -30,7 +32,7 @@ Data analytics can be categorized into four main types, each serving a different
 
 Each type of data analytics builds on the previous one, adding more depth and value to the insights gained from the data. Together, they provide a comprehensive approach to understanding and leveraging data for better decision-making.
 
-## Key Concepts of Data
+# Key Concepts of Data
 
 In the realm of data analysis, understanding some key concepts is essential. Data analysis is the process of inspecting, cleansing, transforming, and modeling data to discover useful information and support decision-making. In the broadest sense, data can be classified into various types like nominal, ordinal, interval and ratio, each with a specific role and analysis technique. Higher-dimensional data types like time-series, panel data, and multi-dimensional arrays are also critical. On the other hand, data quality and data management are key concepts to ensure clean and reliable datasets. With an understanding of these fundamental concepts, a data analyst can transform raw data into meaningful insights.
 
