@@ -10,6 +10,7 @@ The Data Analyst Roadmap is a comprehensive guide for those who aspire to become
   - [Types of Data Analytics](#types-of-data-analytics)
 - [Key Concepts of Data](#key-concepts-of-data)
 - [Analysis / Reporting with Excel](#analysis--reporting-with-excel)
+  - [Learn Common Functionsl](#learn-common-functions) 
 
 
 # Introduction
@@ -61,3 +62,9 @@ Statistical analysis is fundamental to the daily work of a data analyst. It invo
 Machine learning, a branch of artificial intelligence, is an essential tool for data analysts. It enables systems to automatically learn, improve from experience, and make decisions without explicit programming. For data analysts, machine learning is crucial for uncovering hidden insights, recognizing patterns, and making predictions from large datasets. By employing various algorithms and models, data analysts can transform raw data into valuable information, making machine learning a pivotal aspect of data analysis.
 
 # Analysis / Reporting with Excel
+
+Excel is a powerful tool used by data analysts globally for storing, manipulating, and analyzing data. It provides a wide range of features, including pivot tables, graphs, and a robust suite of formulas and functions, enabling efficient handling of large datasets. Data analysts employ Excel for various tasks, from basic data entry and cleaning to complex statistical analysis and predictive modeling. Proficiency in Excel is often essential for data analysts, as its versatility and widespread use make it an invaluable asset in data analysis.
+
+## Learn Common Functions
+
+**IF function** 
