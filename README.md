@@ -4,7 +4,8 @@ The Data Analyst Roadmap is a comprehensive guide for those who aspire to become
 
 [RoadMap](https://github.com/MaksymYakushev/RoadMapDataAnalyst/blob/main/Data/data-analyst-roadmap.pdf)  
 
-[TOC]
+# Table of Contents
+- [Introduction](#introduction)
 
 ## Introduction
 
