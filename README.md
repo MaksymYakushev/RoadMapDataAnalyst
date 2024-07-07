@@ -6,7 +6,7 @@ The Data Analyst Roadmap is a comprehensive guide for those who aspire to become
 
 # Table of Contents
 - [Introduction](#introduction)
-- [Analysis / Reporting with Excel](#Analysis/ReportingwithExcel)
+- [Analysis / Reporting with Excel](#analysis--reporting-with-excel)
 ...
 
 # Introduction
