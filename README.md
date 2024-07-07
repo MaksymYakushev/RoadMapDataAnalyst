@@ -6,6 +6,7 @@ The Data Analyst Roadmap is a comprehensive guide for those who aspire to become
 
 # Table of Contents
 - [Introduction](#introduction)
+- [Analysis / Reporting with Excel]
 ...
 
 # Introduction
@@ -56,3 +57,4 @@ Statistical analysis is fundamental to the daily work of a data analyst. It invo
 
 Machine learning, a branch of artificial intelligence, is an essential tool for data analysts. It enables systems to automatically learn, improve from experience, and make decisions without explicit programming. For data analysts, machine learning is crucial for uncovering hidden insights, recognizing patterns, and making predictions from large datasets. By employing various algorithms and models, data analysts can transform raw data into valuable information, making machine learning a pivotal aspect of data analysis.
 
+# Analysis / Reporting with Excel
