@@ -6,7 +6,7 @@ The Data Analyst Roadmap is a comprehensive guide for those who aspire to become
 
 # Table of Contents
 - [Introduction](#introduction)
-  - [What is Data Analytics](#WhatisDataAnalytics)
+  - [What is Data Analytics](#What is Data Analytics)
 
 ## Introduction
 
