@@ -71,12 +71,12 @@ The condition is referred to as logical_test, which can check things like:
 
 Using this function while working on your spreadsheet can help you gain insight into date and time differences between two dates. 
 ```plaintext
-=DATEDIF(start_date, end_date,unit)
+=DATEDIF(start_date, end_date, unit)
 ```
 The DATEDIF function includes the following arguments:
-- `Start_date` – This is a required argument. As the name suggests, it is the initial date of the period.
-- `End_date` – This is also a required argument. It represents the last, or ending, date of the period.
-- `Unit` – The time unit in which we want the information.
+- `start_date` – This is a required argument. As the name suggests, it is the initial date of the period.
+- `end_date` – This is also a required argument. It represents the last, or ending, date of the period.
+- `unit` – The time unit in which we want the information.
 
 **VLOOKUP / HLOOKUP functions**
 
@@ -111,9 +111,38 @@ The Excel REPLACE function replaces characters specified by location in a given 
 
 The Excel SUBSTITUTE function replaces text in a given string by matching. For example `=SUBSTITUTE("952-455-7865","-","")` returns `"9524557865"`; the dash is stripped. SUBSTITUTE is case-sensitive and does not support wildcards.
 ```plaintext
-SUBSTITUTE(text, old_text, new_text, [instance_num])
+=SUBSTITUTE(text, old_text, new_text, [instance_num])
 ```
 - `text` - The text to change.
 - `old_text` - The text to replace.
 - `new_text` - The text to replace with.
 - `instance` - [optional] The instance to replace. If not supplied, all instances are replaced.
+
+**UPPER / LOWER / PROPER functions**
+
+The Excel UPPER function converts a text string to all uppercase letters. Numbers, punctuation, and spaces are not affected.
+```plaintext
+=UPPER(text)
+```
+- `text` - The text to convert to uppercase.
+
+The Excel LOWER function converts a text string to all lowercase letters. Numbers, punctuation, and spaces are not affected.
+```plaintext
+=LOWER(text)
+```
+- `text` - The text that should be converted to lower case.
+
+The Excel PROPER function capitalizes each word in a given text string. Numbers, punctuation, and spaces are not affected.
+```plaintext
+=PROPER(text)
+```
+- `text` - The text that should be converted to proper case.
+
+**CONCAT function**
+
+The Excel CONCAT function concatenates (joins) values supplied as references or constants. Unlike the CONCATENATE function (which CONCAT replaces), CONCAT will accept a range of cells to join, in addition to individual cell references.
+```plaintext
+=CONCAT(text1,[text2],...)
+```
+- `text1` - First text value, cell reference, or range.
+- `text2` - [optional] Second text value, cell reference, or range.
