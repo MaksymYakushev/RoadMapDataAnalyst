@@ -68,3 +68,4 @@ Excel is a powerful tool used by data analysts globally for storing, manipulatin
 ## Learn Common Functions
 
 **IF function** 
+The IF function is a premade function in Excel, which returns values based on a true or false condition. It is typed =IF and has 3 parts:
