@@ -71,25 +71,25 @@ The condition is referred to as logical_test, which can check things like:
 
 Using this function while working on your spreadsheet can help you gain insight into date and time differences between two dates. 
 ```plaintext
-=DATEDIF(start_date,end_date,unit)
+=DATEDIF(start_date, end_date,unit)
 ```
 The DATEDIF function includes the following arguments:
 - `Start_date` – This is a required argument. As the name suggests, it is the initial date of the period.
 - `End_date` – This is also a required argument. It represents the last, or ending, date of the period.
 - `Unit` – The time unit in which we want the information.
 
-**VLOOKUP / HLOOKUP function**
+**VLOOKUP / HLOOKUP functions**
 
-The VLOOKUP function is a premade function in Excel, which allows searches across columns.
+The VLOOKUP function makes Excel search for a certain value in a column (the so called ‘table array’), in order to return a value from a different column in the same row. The V in VLOOKUP stands for "Vertical".
 ```plaintext
-=VLOOKUP(lookup_value,table_array,column_index_num,[range_lookup])
+=VLOOKUP(lookup_value, table_array, column_index_num, [range_lookup])
 ```
 - `lookup_value` - The value to look for in the first column of a table.
 - `table_array` - The table from which to retrieve a value.
 - `column_index_num` - The column in the table from which to retrieve a value.
 - `range_lookup` - [optional] TRUE = approximate match (default). FALSE = exact match.
 
-Use HLOOKUP when your comparison values are located in a row across the top of a table of data, and you want to look down a specified number of rows. Use VLOOKUP when your comparison values are located in a column to the left of the data you want to find. The H in HLOOKUP stands for "Horizontal."
+Use HLOOKUP when your comparison values are located in a row across the top of a table of data, and you want to look down a specified number of rows. Use VLOOKUP when your comparison values are located in a column to the left of the data you want to find. The H in HLOOKUP stands for "Horizontal".
 ```plaintext
 =HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])
 ```
@@ -97,3 +97,23 @@ Use HLOOKUP when your comparison values are located in a row across the top of a
 - `table_array` - The table from which to retrieve data.
 - `row_index` - The row number from which to retrieve data.
 - `range_lookup` - [optional] - A Boolean to indicate exact match or approximate match. Default = TRUE = approximate match.
+
+**REPLACE / SUBSTITUTE functions**
+
+The Excel REPLACE function replaces characters specified by location in a given text string with another text string. For example `=REPLACE("XYZ123",4,3,"456")` returns `"XYZ456"`.
+```plaintext
+=REPLACE(old_text, start_num, num_chars, new_text)
+```
+- `old_text` - The text to replace.
+- `start_num` - The starting location in the text to search.
+- `num_chars` - The number of characters to replace.
+- `new_text` - The text to replace old_text with
+
+The Excel SUBSTITUTE function replaces text in a given string by matching. For example `=SUBSTITUTE("952-455-7865","-","")` returns `"9524557865"`; the dash is stripped. SUBSTITUTE is case-sensitive and does not support wildcards.
+```plaintext
+SUBSTITUTE(text, old_text, new_text, [instance_num])
+```
+- `text` - The text to change.
+- `old_text` - The text to replace.
+- `new_text` - The text to replace with.
+- `instance` - [optional] The instance to replace. If not supplied, all instances are replaced.
