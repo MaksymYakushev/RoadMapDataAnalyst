@@ -10,7 +10,10 @@ The Data Analyst Roadmap is a comprehensive guide for those who aspire to become
   - [Types of Data Analytics](#types-of-data-analytics)
 - [Key Concepts of Data](#key-concepts-of-data)
 - [Analysis / Reporting with Excel](#analysis--reporting-with-excel)
-  - [Learn Common Functionsl](#learn-common-functions) 
+  - [Learn Common Functionsl](#learn-common-functions)
+  - [Charting](#charting)
+  - [Pivot Tables](#pivot-tables)
+- [Learn SQL](#learn-sql)
 
 
 # Introduction
@@ -198,3 +201,7 @@ The Excel MAX function returns the largest numeric value in the data provided. M
 ```
 - `number1` - Number, reference to numeric value, or range that contains numeric values.
 - `number2` - [optional] Number, reference to numeric value, or range that contains numeric values.
+
+## Charting
+## Pivot Tables
+#Learn SQL
