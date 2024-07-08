@@ -57,7 +57,12 @@ Excel is a powerful tool used by data analysts globally for storing, manipulatin
 
 ## Learn Common Functions
 **IF function** 
+
 The IF function is a premade function in Excel, which returns values based on a true or false condition. It is typed =IF and has 3 parts:
 ```plaintext
 =IF(logical_test, [value_if_true], [value_if_false])
 ```
+The condition is referred to as logical_test, which can check things like:
+- If a number is greater than another number `>`
+- If a number is smaller than another number `<`
+- If a number or text is equal to something `=`
