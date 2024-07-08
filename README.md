@@ -66,3 +66,34 @@ The condition is referred to as logical_test, which can check things like:
 - If a number is greater than another number `>`
 - If a number is smaller than another number `<`
 - If a number or text is equal to something `=`
+
+**DATEIF function**
+
+Using this function while working on your spreadsheet can help you gain insight into date and time differences between two dates. 
+```plaintext
+=DATEDIF(start_date,end_date,unit)
+```
+The DATEDIF function includes the following arguments:
+- `Start_date` – This is a required argument. As the name suggests, it is the initial date of the period.
+- `End_date` – This is also a required argument. It represents the last, or ending, date of the period.
+- `Unit` – The time unit in which we want the information.
+
+**VLOOKUP / HLOOKUP function**
+
+The VLOOKUP function is a premade function in Excel, which allows searches across columns.
+```plaintext
+=VLOOKUP(lookup_value,table_array,column_index_num,[range_lookup])
+```
+- `lookup_value` - The value to look for in the first column of a table.
+- `table_array` - The table from which to retrieve a value.
+- `column_index_num` - The column in the table from which to retrieve a value.
+- `range_lookup` - [optional] TRUE = approximate match (default). FALSE = exact match.
+
+Use HLOOKUP when your comparison values are located in a row across the top of a table of data, and you want to look down a specified number of rows. Use VLOOKUP when your comparison values are located in a column to the left of the data you want to find. The H in HLOOKUP stands for "Horizontal."
+```plaintext
+=HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])
+```
+- `lookup_value` - The value to look up.
+- `table_array` - The table from which to retrieve data.
+- `row_index` - The row number from which to retrieve data.
+- `range_lookup` - [optional] - A Boolean to indicate exact match or approximate match. Default = TRUE = approximate match.
