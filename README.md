@@ -215,4 +215,4 @@ Documentations for Excel / Google Sheets: https://exceljet.net/
 
 Courses for Excel / Google Sheets: https://app.datacamp.com/learn/courses?technologies=10
 
-#Learn SQL
+# Learn SQL
