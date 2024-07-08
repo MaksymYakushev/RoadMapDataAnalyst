@@ -203,7 +203,7 @@ The Excel MAX function returns the largest numeric value in the data provided. M
 - `number1` - Number, reference to numeric value, or range that contains numeric values.
 - `number2` - [optional] Number, reference to numeric value, or range that contains numeric values.
 
-##Courses on Datacamp:##
+##Courses on Datacamp:
 Introduction to Excel / Google Sheets: https://app.datacamp.com/learn/courses/introduction-to-excel
 
 Intermediate Excel / Google Sheets: https://app.datacamp.com/learn/courses/intermediate-google-sheets
@@ -211,6 +211,8 @@ Intermediate Excel / Google Sheets: https://app.datacamp.com/learn/courses/inter
 ## Charting
 ## Pivot Tables
 ## Useful Links
-Documentations for Excel - https://exceljet.net/
+Documentations for Excel / Google Sheets: https://exceljet.net/
+
+Courses for Excel / Google Sheets: https://app.datacamp.com/learn/courses?technologies=10
 
 #Learn SQL
