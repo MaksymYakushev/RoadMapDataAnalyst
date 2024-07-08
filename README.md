@@ -13,6 +13,7 @@ The Data Analyst Roadmap is a comprehensive guide for those who aspire to become
   - [Learn Common Functionsl](#learn-common-functions)
   - [Charting](#charting)
   - [Pivot Tables](#pivot-tables)
+  - [Useful Links](#useful-links)
 - [Learn SQL](#learn-sql)
 
 
@@ -204,4 +205,6 @@ The Excel MAX function returns the largest numeric value in the data provided. M
 
 ## Charting
 ## Pivot Tables
+## Useful Links
+Documentations for Excel - https://exceljet.net/
 #Learn SQL
