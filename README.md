@@ -142,7 +142,59 @@ The Excel PROPER function capitalizes each word in a given text string. Numbers,
 
 The Excel CONCAT function concatenates (joins) values supplied as references or constants. Unlike the CONCATENATE function (which CONCAT replaces), CONCAT will accept a range of cells to join, in addition to individual cell references.
 ```plaintext
-=CONCAT(text1,[text2],...)
+=CONCAT(text1, [text2], ...)
 ```
 - `text1` - First text value, cell reference, or range.
 - `text2` - [optional] Second text value, cell reference, or range.
+
+**TRIM function**
+
+The Excel TRIM function strips extra spaces from text, leaving only a single space between words and no space characters at the start or end of the text.
+```plaintext
+=TRIM(text)
+```
+- `text` - The text from which to remove extra space.
+
+**AVERAGE function**
+
+The Excel AVERAGE function calculates the average (arithmetic mean) of supplied numbers. AVERAGE can handle up to 255 individual arguments, which can include numbers, cell references, ranges, arrays, and constants.
+```plaintext
+=AVERAGE(number1, [number2], ...)
+```
+- `number1` - A number or cell reference that refers to numeric values.
+- `number2` - [optional] A number or cell reference that refers to numeric values.
+
+**COUNT function**
+
+The Excel COUNT function returns a count of values that are numbers. Numbers include negative numbers, percentages, dates, times, fractions, and formulas that return numbers. Empty cells and text values are ignored.
+```plaintext
+=COUNT(value1, [value2], ...)
+```
+- `value1` - An item, cell reference, or range.
+- `value2` - [optional] An item, cell reference, or range.
+
+**SUM function**
+
+The Excel SUM function returns the sum of values supplied. These values can be numbers, cell references, ranges, arrays, and constants, in any combination. SUM can handle up to 255 individual arguments.
+```plaintext
+=SUM(number1, [number2], [number3], ...)
+```
+- `number1` - The first value to sum.
+- `number2` - [optional] The second value to sum.
+- `number3` - [optional] The third value to sum.
+
+**MIN / MAX function**
+
+The Excel MIN function returns the smallest numeric value in the data provided. The MIN function ignores empty cells, the logical values TRUE and FALSE, and text values.
+```plaintext
+=MIN(number1, [number2], ...)
+```
+- `number1` - Number, reference to numeric value, or range that contains numeric values.
+- `number2` - [optional] Number, reference to numeric value, or range that contains numeric values.
+
+The Excel MAX function returns the largest numeric value in the data provided. MAX ignores empty cells, the logical values TRUE and FALSE, and text values.
+```plaintext
+=MAX(number1, [number2], ...)
+```
+- `number1` - Number, reference to numeric value, or range that contains numeric values.
+- `number2` - [optional] Number, reference to numeric value, or range that contains numeric values.
