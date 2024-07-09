@@ -205,12 +205,10 @@ The Excel MAX function returns the largest numeric value in the data provided. M
 
 ## Courses on Datacamp:
 Introduction to Excel / Google Sheets: https://app.datacamp.com/learn/courses/introduction-to-google-sheets
-
-Certificate
+[Certificate](https://github.com/MaksymYakushev/RoadMapDataAnalyst/blob/main/Analysis-Reporting-with-Excel/certificate-introduction-to-google-sheets.pdf)
 
 Intermediate Excel / Google Sheets: https://app.datacamp.com/learn/courses/intermediate-google-sheets
-
-Certificate
+[Certificate](https://github.com/MaksymYakushev/RoadMapDataAnalyst/blob/main/Analysis-Reporting-with-Excel/certificate-intermediate-google-sheets.pdf)
 
 ## Charting
 ## Pivot Tables
