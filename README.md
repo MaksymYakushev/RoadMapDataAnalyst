@@ -203,7 +203,7 @@ The Excel MAX function returns the largest numeric value in the data provided. M
 - `number1` - Number, reference to numeric value, or range that contains numeric values.
 - `number2` - [optional] Number, reference to numeric value, or range that contains numeric values.
 
-## Courses on Datacamp:
+### Courses on Datacamp:
 Introduction to Excel / Google Sheets: https://app.datacamp.com/learn/courses/introduction-to-google-sheets
 
 [Certificate](https://github.com/MaksymYakushev/RoadMapDataAnalyst/blob/main/Analysis-Reporting-with-Excel/certificate-introduction-to-google-sheets.pdf)
@@ -213,6 +213,15 @@ Intermediate Excel / Google Sheets: https://app.datacamp.com/learn/courses/inter
 [Certificate](https://github.com/MaksymYakushev/RoadMapDataAnalyst/blob/main/Analysis-Reporting-with-Excel/certificate-intermediate-google-sheets.pdf)
 
 ## Charting
+
+Excel serves as a powerful tool for data analysts when it comes to data organization, manipulation, recovery, and visualization. One of the incredible features it offers is ‘Charting’. Charting essentially means creating visual representations of data, which aids data analysts to easily understand complex data and showcase compelling stories of data trends, correlations, and statistical analysis. These charts vary from simple bar graphs to more complex 3D surface and stock charts. As a data analyst, mastering charting under Excel substantially enhances data interpretation, making it easier to extract meaningful insights from substantial data sets.
+
+### Courses on Datacamp:
+
+Data Visualization in Excel / Google Sheets: https://app.datacamp.com/learn/courses/data-visualization-in-google-sheets
+
+[Certificate](https://github.com/MaksymYakushev/RoadMapDataAnalyst/blob/main/Analysis-Reporting-with-Excel/certificate-data-visualization-in-google-sheets.pdf)
+
 ## Pivot Tables
 ## Useful Links
 Documentations for Excel / Google Sheets: https://exceljet.net/
